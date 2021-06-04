@@ -37,7 +37,7 @@ public class UserFragment extends Fragment {
         String UserEmail = SharedPreferenceBean.getAttribute(getActivity().getApplication(),"UserEmail");
         String UserPlatform = SharedPreferenceBean.getAttribute(getActivity().getApplication(),"UserPlatform");
         String UserName = SharedPreferenceBean.getAttribute(getActivity().getApplication(),"UserName");
-        getid.setText(UserEmail + UserPlatform+UserName);
+        getid.setText(UserName);
         btn_map = getView().findViewById(R.id.btn_map);
         btn_map.setOnClickListener(new View.OnClickListener() {
             @Override

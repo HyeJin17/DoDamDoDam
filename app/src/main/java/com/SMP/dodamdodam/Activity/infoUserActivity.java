@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,7 +40,7 @@ public class infoUserActivity extends AppCompatActivity {
         setContentView(R.layout.activity_info_user);
        txtinfo2 = findViewById(R.id.txtInfo2);
        editName = findViewById(R.id.EdtName);
-       btnNameChk = findViewById(R.id.btnInfoChk);
+       btnNameChk = (Switch)findViewById(R.id.btnInfoChk);
        btnStart = findViewById(R.id.btnInfoSub);
 
        btnNameChk.setOnClickListener(new View.OnClickListener() {
