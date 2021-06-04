@@ -14,29 +14,34 @@
         android:scaleType="fitXY"/>
 
 
-
     <Button
 
         android:id="@+id/btn_upload_image"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="이미지 분석.."
         android:textAllCaps="false"
-        android:layout_marginTop="20dp"
-        android:text="Image upload to server"
-        android:layout_gravity="center"/>
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/txtTest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="맛있는건"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/txtTest2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="0kcal"
+        android:textSize="40sp" />
 
 
 </LinearLayout>
