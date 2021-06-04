@@ -31,7 +31,8 @@ import org.json.JSONObject;
 public class infoUserActivity extends AppCompatActivity {
         TextView txtinfo2;
         EditText editName;
-        Button btnNameChk, btnStart;
+        Button btnStart;
+        Switch btnNameChk;
         String NameChk1,NameChk2;
 
     @Override
@@ -40,7 +41,7 @@ public class infoUserActivity extends AppCompatActivity {
         setContentView(R.layout.activity_info_user);
        txtinfo2 = findViewById(R.id.txtInfo2);
        editName = findViewById(R.id.EdtName);
-       btnNameChk = (Switch)findViewById(R.id.btnInfoChk);
+       btnNameChk = findViewById(R.id.btnInfoChk);
        btnStart = findViewById(R.id.btnInfoSub);
 
        btnNameChk.setOnClickListener(new View.OnClickListener() {
